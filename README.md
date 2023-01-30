@@ -2,8 +2,9 @@
 A collection of BibTeX data for games and the code for formatting a ludography in LaTeX.
 
 ## How to Use
-Download the `games.bib` file and place it in your LaTeX source code. Cite items in `games.bib` as you would cite any other `.bib` file.
-[TODO more on how to use the code to generate the ludography]
+1. Download the `games.bib` file and place it in your LaTeX source code.
+2. Copy the header code at the top of `main.tex` marked `--- LUDOGRAPHY ---` and similarly the bibliography code at the bottom. Place these appropriately into your main tex file.
+3. Cite games using `\citegame{name}`, see the `main.tex` provided for examples.
 
 
 ## Licenses
