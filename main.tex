@@ -1,0 +1,46 @@
+\documentclass[sigconf]{acmart}
+\usepackage[utf8]{inputenc}
+
+
+% --- LUDOGRAPHY ---
+\usepackage[resetlabels]{multibib}
+\newcites{game}{Ludography}
+\newcommand{\citegameprefix}{G}
+\usepackage{xparse}
+\let\origcitegame\citegame
+\RenewDocumentCommand{\citegame}{O{} O{} m}{%
+  \renewcommand{\citenumfont}[1]{\citegameprefix##1}%  
+  \origcitegame[#1][#2]{#3}%
+  \renewcommand{\citenumfont}[1]{##1}%
+}
+% ------------------
+
+
+\title{Ludography Example}
+\author{Josh Miller and Kutub Gandhi}
+\date{January 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This \LaTeX source is an example of a ludography, featuring games like \emph{BioShock} (\citeyear{bioshock}) \citegame{bioshock}, \citeauthor{specops}'s  \emph{Spec Ops: The Line} \citegame{specops}, and \emph{Minecraft} \citegame{minecraft}. Ludographies are important sections of games research, such as in \cite{gandhi_philosophy_2022} and \cite{poretski2022press}.
+
+
+% --- LUDOGRAPHY ---
+
+% set formatting for ludography
+\renewcommand{\bibnumfmt}[1]{[\citegameprefix#1]}%  
+\bibliographystylegame{ACM-Reference-Format}
+\bibliographygame{games}
+
+% set formatting back for other references
+\renewcommand{\bibnumfmt}[1]{[#1]}%  
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{ref}
+% Note: this may produce warnings that game refs did not have a database entry
+% -----------------
+
+\end{document}
