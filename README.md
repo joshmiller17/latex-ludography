@@ -20,8 +20,8 @@ This template can be used to create a new game citation entry, following the rec
 
 ```
 @misc{example,
-      Title = {\emph{GAME}},
-      Address = {example},
+      Title = {\emph{Game}},
+      Address = {City, Country},
       Author = {{Developer}},
       Day = {d},
       Month = {m},
