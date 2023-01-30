@@ -32,4 +32,4 @@ This template can be used to create a new game citation entry, following the rec
 }
 ```
 
-We encourage authors who add to `games.bib` to create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to continue building this shared ludography.
+We encourage authors who add to `games.bib` to create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to continue building this shared ludography. Prior to creating your pull request, ensure that the list remains alphabetically sorted using a BibTeX tidying program like [this one](https://flamingtempura.github.io/bibtex-tidy/).
