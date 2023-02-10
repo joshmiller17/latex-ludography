@@ -1,7 +1,6 @@
 \documentclass[sigconf]{acmart}
 \usepackage[utf8]{inputenc}
 
-
 % --- LUDOGRAPHY ---
 \usepackage[resetlabels]{multibib}
 \newcites{game}{Ludography}
@@ -32,16 +31,16 @@ This \LaTeX source is an example of a ludography, featuring games like \emph{Bio
 
 % --- LUDOGRAPHY ---
 
-% set formatting for ludography
-\renewcommand{\bibnumfmt}[1]{[\citegameprefix#1]}%  
-\bibliographystylegame{ACM-Reference-Format}
-\bibliographygame{games}
-
 % set formatting back for other references
 \renewcommand{\bibnumfmt}[1]{[#1]}%  
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{ref}
 % Note: this may produce warnings that game refs did not have a database entry
-% -----------------
 
+% set formatting for ludography
+\renewcommand{\bibnumfmt}[1]{[\citegameprefix#1]}%  
+\bibliographystylegame{ACM-Reference-Format}
+\bibliographygame{games}
+
+% -----------------
 \end{document}
