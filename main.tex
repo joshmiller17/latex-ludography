@@ -1,6 +1,7 @@
 \documentclass[sigconf]{acmart}
 \usepackage[utf8]{inputenc}
 
+% Copy the code below into the header of your document
 % --- LUDOGRAPHY ---
 \usepackage[resetlabels]{multibib}
 \newcites{game}{Ludography}
@@ -29,11 +30,13 @@
 This \LaTeX{} source is an example of a ludography, featuring games like \emph{BioShock} (\citeyear{bioshock}) \citegame{bioshock}, \citeauthor{specops}'s  \emph{Spec Ops: The Line} \citegame{specops}, and \emph{Minecraft} \citegame{minecraft}. Ludographies are important sections of games research, such as in \cite{gandhi_philosophy_2022} and \cite{poretski2022press}.
 
 
+% Copy the following section as a replacement for your bibliography code. Note that the "\bibliography{ref}" line should be changed depending on the name of your non-ludography .bib file
 % --- LUDOGRAPHY ---
 
-% set formatting back for other references
+% set formatting for non-ludography references
 \renewcommand{\bibnumfmt}[1]{[#1]}%  
 \bibliographystyle{ACM-Reference-Format}
+% change the following line depending on the name of your references file. For example, the following line is set up for a file called 'ref.bib'
 \bibliography{ref}
 % Note: this may produce warnings that game refs did not have a database entry
 
