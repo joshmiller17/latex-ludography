@@ -6,6 +6,8 @@ A collection of BibTeX data for games and the code for formatting a ludography i
 2. Copy the header code at the top of `main.tex` marked `--- LUDOGRAPHY ---` and similarly the bibliography code at the bottom. Place these appropriately into your main tex file.
 3. Cite games using `\citegame{name}`, see the `main.tex` provided for examples.
 
+**Remember**: Check the accuracy of any game you cite — this repository is provided as-is. If you find any inaccuracies, please contribute changes via a pull request.
+
 
 ## Licenses
 The ACM bibliography is copyrighted (C) 1986, 1988, 2010 Howard Trickey and Oren Patashnik. Per their header, unlimited copying and redistribution of this file are permitted as long as it is unmodified. Modifications (and redistribution of modified versions) are also permitted, but only if the resulting file is renamed.
