@@ -4,6 +4,8 @@ A shared ludography (and associated LaTeX formatting code), allowing game schola
 
 We accept contributions!
 
+![An example image of the rendered ludography, showing the seperated paper references and game references](./static/ludography_example_rendered.png)
+
 ## How to Use
 1. Download the `games.bib` file and place it in your LaTeX source code.
 2. Copy the header code at the top of `main.tex` marked `--- LUDOGRAPHY ---` and similarly the bibliography code at the bottom. Place these appropriately into your main tex file.
