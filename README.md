@@ -1,5 +1,8 @@
 # LaTeX Ludography
-A collection of BibTeX data for games and the code for formatting a ludography in LaTeX.
+
+A shared ludography (and associated LaTeX formatting code), allowing game scholars to cite popular games without needing to look up boilerplate information.
+
+We accept contributions!
 
 ## How to Use
 1. Download the `games.bib` file and place it in your LaTeX source code.
