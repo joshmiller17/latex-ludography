@@ -7,11 +7,11 @@ We accept contributions!
 ![An example image of the rendered ludography, showing the seperated paper references and game references](./static/ludography_example_rendered.png)
 
 ## How to Use
-1. Download the `games.bib` file and place it in your LaTeX source code.
+1. Download the `games.bib` file and place it in your LaTeX source code folder.
 2. Copy the header code at the top of `main.tex` marked `--- LUDOGRAPHY ---` and similarly the bibliography code at the bottom. Place these appropriately into your main tex file.
 3. Cite games using `\citegame{name}`, see the `main.tex` provided for examples.
 
-**Remember**: Check the accuracy of any game you cite — this repository is provided as-is. If you find any inaccuracies, please contribute changes via a pull request.
+**Remember:** Check the accuracy of any game you cite — this repository is provided as-is. If you find any inaccuracies, please contribute changes via a pull request.
 
 ## Adding new citations
 
